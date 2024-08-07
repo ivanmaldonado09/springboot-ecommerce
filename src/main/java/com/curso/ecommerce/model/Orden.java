@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 @Table(name = "ordenes")
 public class Orden {
 	
-	@Id
+	@Id 
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String numero;
